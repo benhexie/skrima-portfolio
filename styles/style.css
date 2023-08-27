@@ -5,13 +5,17 @@
 }
 
 :root {
+    /* COLORS */
     --primary-color: #FFA0A0;
     --secondary-color: #FAFF00;
     
+    /* FONTS */
+    --font-family: 'Inter', 'Montserrat', sans-serif;
 }
 
 body {
     position: relative;
+    font-family: var(--font-family);
 }
 
 .cat__img {
@@ -85,10 +89,12 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    max-width: 700px;
+    align-self: center;
 }
 
 .project__box {
-    width: 150px;
+    width: 180px;
     text-align: start;
     border-radius: 8px;
     padding: 8px;
